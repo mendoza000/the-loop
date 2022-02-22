@@ -1,0 +1,27 @@
+
+
+$primary: #1A1A40;
+$primary-l: #762D95;
+$primary-xl: #8938ab;
+$primary-o: #15153A;
+
+$color-font: #f7e3ff;
+
+$font-text: 'Source Sans Pro', sans-serif;
+$font-title: 'Ubuntu Mono', monospace;
+
+$shadow-cool: 1px 1px 0px 1px $primary-l,
+							2px 2px 0px 1px $primary-l,
+							3px 3px 0px 1px $primary-l,
+							4px 4px 0px 1px $primary-l,
+							5px 5px 0px 1px $primary-l,
+							0px 0px 20px -4px rgba(0,0,0,0.8);
+
+$shadow-cool-invert: -1px 1px 0px 1px $primary-l,
+							-2px 2px 0px 1px $primary-l,
+							-3px 3px 0px 1px $primary-l,
+							-4px 4px 0px 1px $primary-l,
+							-5px 5px 0px 1px $primary-l,
+							-0px 0px 20px -4px rgba(0,0,0,0.8);
+
+$shadow-normal: 0px 0px 20px -4px rgba(0,0,0,0.8);

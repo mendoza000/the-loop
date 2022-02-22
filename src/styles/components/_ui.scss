@@ -1,0 +1,40 @@
+.ui__nav{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 2rem;
+	width: 100vw;
+	z-index: 10;
+}
+
+.ui__nav-list{
+	background-color: $primary-o;
+	width: 90%;
+	padding: 0.8rem 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 2px solid $primary-xl;
+	box-shadow: $shadow-normal;
+}
+
+.ui__nav-item{
+	fill: $primary-xl;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.1rem 1.4rem;
+
+	transition: background-color .3s, fill .3s;
+
+	box-icon{
+		width: 3rem;
+		height: 3rem;
+	}
+}
+
+.ui__nav-item-active{
+	background-color: $primary-xl;
+	fill: $primary-o;
+}
