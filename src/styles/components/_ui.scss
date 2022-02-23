@@ -32,6 +32,11 @@
 		width: 3rem;
 		height: 3rem;
 	}
+
+	&:hover{
+		fill: $primary-o;
+		background-color: $primary-xl;
+	}
 }
 
 .ui__nav-item-active{
