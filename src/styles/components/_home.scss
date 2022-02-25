@@ -65,3 +65,43 @@
 		}
 	}
 }
+
+.home__articles{
+	margin: 3rem 2rem;
+}
+.home__articles-title{
+	font-size: 2.2rem;
+	fill: $primary-xl;
+	display: flex;
+	align-items: center;
+	box-shadow: $shadow-cool;
+	padding: 0.7rem 2rem;
+	display: flex;
+	width: 19rem;
+	margin-bottom: 3rem;
+
+	box-icon{
+		margin-right: 0.7rem
+	}
+}
+
+.home__articles-article{
+	background-color: $primary-o;
+	display: flex;
+	grid-gap: 2rem;
+	border: 2px solid $primary-l;
+	box-shadow: $shadow-normal;
+	margin-bottom: 2rem;
+
+	h3{
+		margin-right: 2rem;
+		margin-top: 1.5rem;
+		font-weight: bolder;
+	}
+}
+.home__articles-article-decoration{
+	width: 5rem;
+	height: 10rem;
+	background-color: $primary-l;
+	margin-left: 1.5rem;
+}
